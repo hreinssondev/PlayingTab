@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C190ED307D21F100883ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C190EC307D21F100883ADF /* AppDelegate.swift */; };
+		07C190F1307D21F100883ADF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 07C190EF307D21F100883ADF /* Main.html */; };
+		07C190F3307D21F100883ADF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C190F2307D21F100883ADF /* Icon.png */; };
+		07C190F5307D21F100883ADF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 07C190F4307D21F100883ADF /* Style.css */; };
+		07C190F7307D21F100883ADF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 07C190F6307D21F100883ADF /* Script.js */; };
+		07C190F9307D21F100883ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C190F8307D21F100883ADF /* ViewController.swift */; };
+		07C190FC307D21F100883ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C190FA307D21F100883ADF /* Main.storyboard */; };
+		07C190FE307D21F200883ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C190FD307D21F200883ADF /* Assets.xcassets */; };
+		07C19105307D21F200883ADF /* PlayingTab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 07C19104307D21F200883ADF /* PlayingTab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07C1910A307D21F200883ADF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C19109307D21F200883ADF /* SafariWebExtensionHandler.swift */; };
+		07C19119307D21F200883ADF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 07C19116307D21F200883ADF /* background.js */; };
+		07C1911A307D21F200883ADF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C19117307D21F200883ADF /* manifest.json */; };
+		07C1911B307D21F200883ADF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 07C19118307D21F200883ADF /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C19106307D21F200883ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C190E1307D21F100883ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C19103307D21F200883ADF;
+			remoteInfo = "PlayingTab Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07C19111307D21F200883ADF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				07C19105307D21F200883ADF /* PlayingTab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07C190E9307D21F100883ADF /* PlayingTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C190EC307D21F100883ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07C190F0307D21F100883ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		07C190F2307D21F100883ADF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		07C190F4307D21F100883ADF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		07C190F6307D21F100883ADF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		07C190F8307D21F100883ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07C190FB307D21F100883ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C190FD307D21F200883ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C190FF307D21F200883ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C19104307D21F200883ADF /* PlayingTab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PlayingTab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C19109307D21F200883ADF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		07C1910B307D21F200883ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C19116307D21F200883ADF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		07C19117307D21F200883ADF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		07C19118307D21F200883ADF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C190E6307D21F100883ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		07C19101307D21F200883ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C190E0307D21F100883ADF = {
+			isa = PBXGroup;
+			children = (
+				07C190EB307D21F100883ADF /* PlayingTab */,
+				07C19108307D21F200883ADF /* PlayingTab Extension */,
+				07C190EA307D21F100883ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C190EA307D21F100883ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C190E9307D21F100883ADF /* PlayingTab.app */,
+				07C19104307D21F200883ADF /* PlayingTab Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C190EB307D21F100883ADF /* PlayingTab */ = {
+			isa = PBXGroup;
+			children = (
+				07C190EC307D21F100883ADF /* AppDelegate.swift */,
+				07C190F8307D21F100883ADF /* ViewController.swift */,
+				07C190FA307D21F100883ADF /* Main.storyboard */,
+				07C190FD307D21F200883ADF /* Assets.xcassets */,
+				07C190FF307D21F200883ADF /* Info.plist */,
+				07C190EE307D21F100883ADF /* Resources */,
+			);
+			path = PlayingTab;
+			sourceTree = "<group>";
+		};
+		07C190EE307D21F100883ADF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07C190EF307D21F100883ADF /* Main.html */,
+				07C190F2307D21F100883ADF /* Icon.png */,
+				07C190F4307D21F100883ADF /* Style.css */,
+				07C190F6307D21F100883ADF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07C19108307D21F200883ADF /* PlayingTab Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07C19115307D21F200883ADF /* Resources */,
+				07C19109307D21F200883ADF /* SafariWebExtensionHandler.swift */,
+				07C1910B307D21F200883ADF /* Info.plist */,
+			);
+			path = "PlayingTab Extension";
+			sourceTree = "<group>";
+		};
+		07C19115307D21F200883ADF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07C19116307D21F200883ADF /* background.js */,
+				07C19117307D21F200883ADF /* manifest.json */,
+				07C19118307D21F200883ADF /* content.js */,
+			);
+			name = Resources;
+			path = "PlayingTab Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C190E8307D21F100883ADF /* PlayingTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C19112307D21F200883ADF /* Build configuration list for PBXNativeTarget "PlayingTab" */;
+			buildPhases = (
+				07C190E5307D21F100883ADF /* Sources */,
+				07C190E6307D21F100883ADF /* Frameworks */,
+				07C190E7307D21F100883ADF /* Resources */,
+				07C19111307D21F200883ADF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C19107307D21F200883ADF /* PBXTargetDependency */,
+			);
+			name = PlayingTab;
+			productName = PlayingTab;
+			productReference = 07C190E9307D21F100883ADF /* PlayingTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C19103307D21F200883ADF /* PlayingTab Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C1910E307D21F200883ADF /* Build configuration list for PBXNativeTarget "PlayingTab Extension" */;
+			buildPhases = (
+				07C19100307D21F200883ADF /* Sources */,
+				07C19101307D21F200883ADF /* Frameworks */,
+				07C19102307D21F200883ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "PlayingTab Extension";
+			productName = "PlayingTab Extension";
+			productReference = 07C19104307D21F200883ADF /* PlayingTab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C190E1307D21F100883ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					07C190E8307D21F100883ADF = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					07C19103307D21F200883ADF = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 07C190E4307D21F100883ADF /* Build configuration list for PBXProject "PlayingTab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C190E0307D21F100883ADF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07C190EA307D21F100883ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C190E8307D21F100883ADF /* PlayingTab */,
+				07C19103307D21F200883ADF /* PlayingTab Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C190E7307D21F100883ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				07C190F3307D21F100883ADF /* Icon.png in Resources */,
+				07C190FC307D21F100883ADF /* Main.storyboard in Resources */,
+				07C190F7307D21F100883ADF /* Script.js in Resources */,
+				07C190F1307D21F100883ADF /* Main.html in Resources */,
+				07C190FE307D21F200883ADF /* Assets.xcassets in Resources */,
+				07C190F5307D21F100883ADF /* Style.css in Resources */,
+			);
+		};
+		07C19102307D21F200883ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				07C1911B307D21F200883ADF /* content.js in Resources */,
+				07C1911A307D21F200883ADF /* manifest.json in Resources */,
+				07C19119307D21F200883ADF /* background.js in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C190E5307D21F100883ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				07C190F9307D21F100883ADF /* ViewController.swift in Sources */,
+				07C190ED307D21F100883ADF /* AppDelegate.swift in Sources */,
+			);
+		};
+		07C19100307D21F200883ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				07C1910A307D21F200883ADF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C19107307D21F200883ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C19103307D21F200883ADF /* PlayingTab Extension */;
+			targetProxy = 07C19106307D21F200883ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C190EF307D21F100883ADF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C190F0307D21F100883ADF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		07C190FA307D21F100883ADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C190FB307D21F100883ADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C1910C307D21F200883ADF /* Debug configuration for PBXProject "PlayingTab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07C1910D307D21F200883ADF /* Release configuration for PBXProject "PlayingTab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		07C1910F307D21F200883ADF /* Debug configuration for PBXNativeTarget "PlayingTab Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlayingTab Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PlayingTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hreinsson.PlayingTab.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07C19110307D21F200883ADF /* Release configuration for PBXNativeTarget "PlayingTab Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlayingTab Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PlayingTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hreinsson.PlayingTab.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		07C19113307D21F200883ADF /* Debug configuration for PBXNativeTarget "PlayingTab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayingTab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayingTab;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hreinsson.PlayingTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07C19114307D21F200883ADF /* Release configuration for PBXNativeTarget "PlayingTab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayingTab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayingTab;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hreinsson.PlayingTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C190E4307D21F100883ADF /* Build configuration list for PBXProject "PlayingTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C1910C307D21F200883ADF /* Debug configuration for PBXProject "PlayingTab" */,
+				07C1910D307D21F200883ADF /* Release configuration for PBXProject "PlayingTab" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		07C1910E307D21F200883ADF /* Build configuration list for PBXNativeTarget "PlayingTab Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C1910F307D21F200883ADF /* Debug configuration for PBXNativeTarget "PlayingTab Extension" */,
+				07C19110307D21F200883ADF /* Release configuration for PBXNativeTarget "PlayingTab Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		07C19112307D21F200883ADF /* Build configuration list for PBXNativeTarget "PlayingTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C19113307D21F200883ADF /* Debug configuration for PBXNativeTarget "PlayingTab" */,
+				07C19114307D21F200883ADF /* Release configuration for PBXNativeTarget "PlayingTab" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C190E1307D21F100883ADF /* Project object */;
+	validationLevel = 1;
+}
