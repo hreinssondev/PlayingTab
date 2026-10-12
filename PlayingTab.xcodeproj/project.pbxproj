@@ -20,6 +20,7 @@
 		07C19119307D21F200883ADF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 07C19116307D21F200883ADF /* background.js */; };
 		07C1911A307D21F200883ADF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C19117307D21F200883ADF /* manifest.json */; };
 		07C1911B307D21F200883ADF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 07C19118307D21F200883ADF /* content.js */; };
+		07C1A002307D21F200883ADF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 07C1A001307D21F200883ADF /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		07C19116307D21F200883ADF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
 		07C19117307D21F200883ADF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 		07C19118307D21F200883ADF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		07C1A001307D21F200883ADF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				07C19116307D21F200883ADF /* background.js */,
 				07C19117307D21F200883ADF /* manifest.json */,
 				07C19118307D21F200883ADF /* content.js */,
+				07C1A001307D21F200883ADF /* images */,
 			);
 			name = Resources;
 			path = "PlayingTab Extension";
@@ -233,6 +236,7 @@
 				07C1911B307D21F200883ADF /* content.js in Resources */,
 				07C1911A307D21F200883ADF /* manifest.json in Resources */,
 				07C19119307D21F200883ADF /* background.js in Resources */,
+				07C1A002307D21F200883ADF /* images in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -334,7 +338,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,7 +395,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -410,7 +414,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PlayingTab Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PlayingTab Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Hlynur Hreinsson";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -444,7 +448,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PlayingTab Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PlayingTab Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Hlynur Hreinsson";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -482,7 +486,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayingTab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlayingTab;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Hlynur Hreinsson";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
@@ -524,7 +529,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayingTab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlayingTab;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Hlynur Hreinsson";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
